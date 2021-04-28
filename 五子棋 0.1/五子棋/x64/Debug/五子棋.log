@@ -1,0 +1,7 @@
+﻿  五子棋.cpp
+C:\Users\徐梓铭\Desktop\五子棋\五子棋\五子棋.cpp(833,7): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Users\徐梓铭\Desktop\五子棋\五子棋\五子棋.cpp(835,12): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\徐梓铭\Desktop\五子棋\五子棋\五子棋.cpp(916,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\徐梓铭\Desktop\五子棋\五子棋\五子棋.cpp(928,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\徐梓铭\Desktop\五子棋\五子棋\五子棋.cpp(95): warning C4715: “calcular”: 不是所有的控件路径都返回值
+  五子棋.vcxproj -> C:\Users\徐梓铭\Desktop\五子棋\x64\Debug\五子棋.exe
