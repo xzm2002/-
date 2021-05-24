@@ -620,16 +620,16 @@ void start1()//玩家选择先手
 
 		if (m.uMsg == WM_LBUTTONDOWN) {		
 			setfillcolor(BLACK);
-			if (map[(m.x / 40 * 40 - 1) / 40][(m.y / 40 * 40 - 1) / 40] == 0)
+			if (map[((m.x+20) / 40 * 40 - 1) / 40][((m.y+20) / 40 * 40 - 1) / 40] == 0)
 			{
-				solidcircle(m.x / 40 * 40, m.y / 40 * 40, 20);
-				map[(m.x / 40 * 40 - 1) / 40][(m.y / 40 * 40 - 1) / 40] = 2;
+				solidcircle((m.x + 20) / 40 * 40, (m.y + 20 )/ 40 * 40, 20);
+				map[((m.x + 20) / 40 * 40 - 1) / 40][((m.y + 20) / 40 * 40 - 1) / 40] = 2;
 				break;
 			}
 		}
 	}
-	x_now= (m.x / 40 * 40 - 1)/40+1;
-	y_now= (m.y / 40 * 40 - 1)/40-1;
+	x_now= ((m.x + 20) / 40 * 40 - 1)/40+1;
+	y_now= ((m.y + 20) / 40 * 40 - 1)/40-1;
 	setfillcolor(WHITE);
 	setcolor(WHITE);
 	fillcircle((x_now + 1) * 40, (y_now + 1) * 40, 20);
@@ -649,10 +649,10 @@ void start1()//玩家选择先手
 
 			if (m.uMsg == WM_LBUTTONDOWN) {
 				setfillcolor(BLACK);
-				if (map[(m.x / 40 * 40 - 1) / 40][(m.y / 40 * 40 - 1) / 40] == 0)
+				if (map[((m.x + 20) / 40 * 40 - 1) / 40][((m.y + 20) / 40 * 40 - 1) / 40] == 0)
 				{
-					solidcircle(m.x / 40 * 40, m.y / 40 * 40, 20);
-					map[(m.x / 40 * 40 - 1) / 40][(m.y / 40 * 40 - 1) / 40] = 2;
+					solidcircle((m.x + 20) / 40 * 40, (m.y + 20) / 40 * 40, 20);
+					map[((m.x + 20) / 40 * 40 - 1) / 40][((m.y + 20) / 40 * 40 - 1) / 40] = 2;
 					break;
 				}
 			}
@@ -700,10 +700,10 @@ void start2()//玩家选择后手
 
 			if (m.uMsg == WM_LBUTTONDOWN) {
 				setfillcolor(WHITE);
-				if (map[(m.x / 40 * 40 - 1) / 40][(m.y / 40 * 40 - 1) / 40] == 0)
+				if (map[((m.x + 20) / 40 * 40 - 1) / 40][((m.y + 20) / 40 * 40 - 1) / 40] == 0)
 				{
-					solidcircle(m.x / 40 * 40, m.y / 40 * 40, 20);
-					map[(m.x / 40 * 40 - 1) / 40][(m.y / 40 * 40 - 1) / 40] = 2;
+					solidcircle((m.x + 20) / 40 * 40, (m.y + 20) / 40 * 40, 20);
+					map[((m.x + 20) / 40 * 40 - 1) / 40][((m.y + 20) / 40 * 40 - 1) / 40] = 2;
 					break;
 				}
 			}
