@@ -1,0 +1,5 @@
+﻿  AI.cpp
+C:\Users\徐梓铭\Desktop\A班大实验 徐梓铭  2020080602015\五子棋AI  徐梓铭  2020080602015\五子棋\AI.cpp(327,10): warning C4101: “x”: 未引用的局部变量
+C:\Users\徐梓铭\Desktop\A班大实验 徐梓铭  2020080602015\五子棋AI  徐梓铭  2020080602015\五子棋\AI.cpp(130): warning C4715: “calcular1”: 不是所有的控件路径都返回值
+C:\Users\徐梓铭\Desktop\A班大实验 徐梓铭  2020080602015\五子棋AI  徐梓铭  2020080602015\五子棋\AI.cpp(210): warning C4715: “calcular2”: 不是所有的控件路径都返回值
+  五子棋.vcxproj -> C:\Users\徐梓铭\Desktop\A班大实验 徐梓铭  2020080602015\五子棋AI  徐梓铭  2020080602015\x64\Debug\五子棋.exe
